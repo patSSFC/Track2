@@ -359,44 +359,25 @@ nav {
 /***************SPLASH************/
 /*******************************/
 
-/*#splash {
-  background-image: url("../images/SODO-Track-Cover.png");
-  background-position: center;
-  background-size: contain;
-}*/
 #splash {
-  padding: 0;
+  background-image: url("../images/background/2880x2048/2880x2048.svg");
+  /*height: 50vh;*/
+  background-size: cover;
+  background-position: center;
 }
 
-#splash img {
-  display: block;
-  margin: 0 auto;
-  width: 100%;
-  max-width: 1240px;
+#main-logo-contain {
+    width: 50%;
+    margin: 0 auto;
 }
 
-#hero-wrap {
+#biker-contain {
     width: 22%;
-    margin: 20px auto;
+    margin: 0 auto;
 }
 
-#hero-wrap img {
-    /*display: block;
-    text-align: center;*/
-    opacity: .8;
-}
-
-#hero-logo {
-  width: 5%;
-  margin: 10px auto;
-  background: #fff;
-  border: 1px solid #7FCAAD;
-  border-radius: 6px;
-  padding: 1.6%;
-}
-
-#hero-logo img {
-  align-items: center;
+#biker-logo {
+    margin: 0 auto;
 }
 
 /***************ENTER************/
@@ -1282,9 +1263,19 @@ input.error {
 
   @media only screen and (max-width: 620px) {
 
-    #hero-wrap {
+    /*#hero-wrap {
       margin-top: 30px;
       width: 65%;
+    }*/
+
+    #biker-contain {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 65%;
+    }
+
+    #main-logo-contain {
+        width: 75%;
     }
 
     .button-wrap {

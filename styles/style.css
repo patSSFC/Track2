@@ -360,8 +360,7 @@ nav {
 /*******************************/
 
 #splash {
-  background-image: url("../images/background/2880x2048/2880x2048.svg");
-  /*height: 50vh;*/
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),url("../images/background/2880x2048/2880x2048.svg");
   background-size: cover;
   background-position: center;
 }
@@ -1262,11 +1261,6 @@ input.error {
   }
 
   @media only screen and (max-width: 620px) {
-
-    /*#hero-wrap {
-      margin-top: 30px;
-      width: 65%;
-    }*/
 
     #biker-contain {
         margin-top: 30px;

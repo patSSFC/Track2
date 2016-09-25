@@ -462,30 +462,6 @@ nav {
     text-align: center;
 }
 
-/*#summer {
-  display: block;
-  width: 30%;
-  height: auto;
-  padding: 10px 20px;
-  margin: auto;
-}
-
-#buildings {
-  width: 21%;
-  height: auto;
-  padding: 10px 20px;
-}
-
-#artists {
-  width: 16%;
-  height: auto;
-  padding: 10px 20px;
-}*/
-
-/*#abstract figure {
-    margin: 0;
-}*/
-
 #artists, #summers {
     display: inline-block;
     width: 45%;

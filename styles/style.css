@@ -461,7 +461,7 @@ nav {
     text-align: center;
 }
 
-#summer {
+/*#summer {
   display: block;
   width: 30%;
   height: auto;
@@ -479,6 +479,17 @@ nav {
   width: 16%;
   height: auto;
   padding: 10px 20px;
+}*/
+
+/*#abstract figure {
+    margin: 0;
+}*/
+
+#artists, #summers {
+    display: inline-block;
+    width: 45%;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 #what .full {
@@ -1178,28 +1189,13 @@ input.error {
     padding: 2.6%;
   }
 
-  #summer {
-    display: block;
-    width: 44%;
-    height: auto;
-    padding: 10px 20px;
-    margin: auto;
+  #artists, #summers, #one-epic {
+      width: 90%;
+      margin: 10px auto;
   }
 
-  #buildings {
-    display: block;
-    width: 30%;
-    height: auto;
-    padding: 10px 20px;
-    margin: auto;
-  }
-
-  #artists {
-    display: block;
-    width: 26%;
-    height: auto;
-    padding: 10px 20px;
-    margin: auto;
+  #artists, #summers {
+      /*margin: auto;*/
   }
 
   #col-wrap figure.arrow {
@@ -1287,7 +1283,7 @@ input.error {
       font-size: 85%;
     }
 
-    #summer {
+    /*#summer {
       display: block;
       width: 54%;
       height: auto;
@@ -1309,7 +1305,7 @@ input.error {
       height: auto;
       padding: 10px 20px;
       margin: auto;
-    }
+    }*/
 
     #sodo-corridor {
       width: 80%;

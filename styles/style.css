@@ -446,7 +446,11 @@ nav {
 
 #abstract figure {
     width: 60%;
-    margin: 10px auto;
+    margin: 20px auto;
+}
+
+#abstract figure#summers {
+    width: 50%;
 }
 
 /*#artists, #summers {

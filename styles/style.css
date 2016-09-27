@@ -343,18 +343,18 @@ nav {
 /*******************************/
 
 #splash {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),url("../images/background/2880x2048/2880x2048.svg");
+  background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)),url("../images/background/2880x2048/2880x2048.svg");
   background-size: cover;
   background-position: center;
 }
 
 #main-logo-contain {
-    width: 50%;
+    width: 35%;
     margin: 0 auto;
 }
 
 #biker-contain {
-    width: 22%;
+    width: 27%;
     margin: 0 auto;
 }
 
@@ -439,18 +439,23 @@ nav {
 }*/
 
 #abstract {
-    width: 100%;
-    margin-bottom: 25px;
-    margin-top: 25px;
-    text-align: center;
+    width: 50%;
+    margin: 25px auto;
+    /*text-align: center;*/
 }
 
-#artists, #summers {
+#abstract figure {
+    width: 60%;
+    margin: 10px auto;
+}
+
+/*#artists, #summers {
     display: inline-block;
-    width: 45%;
+    /*width: 45%;
+    height: auto;
     margin-left: 0;
     margin-right: 0;
-}
+}*/
 
 #what .full {
   margin-bottom: 30px;
@@ -1076,6 +1081,9 @@ input.error {
     width: 75%;
   }
 
+  #abstract {
+      width: 60%;
+  }
   /*#left figure, #right figure {
     display: none;
   }*/
@@ -1119,9 +1127,9 @@ input.error {
 }
 @media only screen and (max-width: 780px) {
 
-  header {
+  /*header {
     padding: 12px 0 12px 0;
-  }
+  }*/
   .nav-contain {
     /*display: none;*/
   }
@@ -1194,6 +1202,11 @@ input.error {
     #logo-wrap {
       width: 70%;
     }
+
+    #abstract {
+        width: 70%;
+    }
+
   }
 
   @media only screen and (max-width: 635px) {
@@ -1242,30 +1255,6 @@ input.error {
       font-weight: 300;
       font-size: 85%;
     }
-
-    /*#summer {
-      display: block;
-      width: 54%;
-      height: auto;
-      padding: 10px 20px;
-      margin: auto;
-    }
-
-    #buildings {
-      display: block;
-      width: 40%;
-      height: auto;
-      padding: 10px 20px;
-      margin: auto;
-    }
-
-    #artists {
-      display: block;
-      width: 32%;
-      height: auto;
-      padding: 10px 20px;
-      margin: auto;
-    }*/
 
     #sodo-corridor {
       width: 80%;
@@ -1378,6 +1367,10 @@ input.error {
       width: 12%;
       padding: 3.6%;
     }
+
+    #abstract {
+        width: 90%;
+    }
   }
 
   @media only screen and (max-width: 420px) {
@@ -1404,6 +1397,12 @@ input.error {
     /*#sodo-corridor a.button {
       width: 97.5%;
     }*/
+  }
+
+  @media only screen and (max-width: 375px) {
+    #logo-sodo-wrap img {
+        width: 140px;
+    }
   }
 
   @media only screen and (max-width: 321px) {

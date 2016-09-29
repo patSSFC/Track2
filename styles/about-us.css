@@ -136,11 +136,6 @@ header {
     width: 20%;
 }
 
-#logo-sodo-wrap img {
-    width: 160px;
-    margin-top: 8px;
-}
-
 /*************NAV************/
 
 nav {
@@ -305,9 +300,15 @@ nav {
 /*************TEAM************/
 
 #team {
-    display: block;
+    /*display: block;*/
     padding: 80px 0;
     background: #f9fafd;
+}
+
+#team div {
+  /*display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;*/
 }
 
 #team img {
@@ -316,6 +317,11 @@ nav {
   margin: auto;
   margin-top: 30px;
   border-radius: 2px;
+}
+
+.person {
+  /*float: left;
+  width: 40%;*/
 }
 
 p.name {
@@ -335,6 +341,7 @@ p.bio {
     display: block;
     padding: 80px 0;
     background: #ffffff;
+    /*clear: both*/
 }
 
 .rider_logo {
@@ -358,16 +365,6 @@ p.bio {
   display: inline-block;
   float: left;
   width: 40%;
-}
-
-#left-contain figure {
-  margin: 20px 0;
-  width: 200px;
-  marign: 10px 0;
-}
-
-#left-contain img {
-  width: 100%;
 }
 
 #left-contain .copy-wrap {

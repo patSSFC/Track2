@@ -52,6 +52,12 @@ h1, h2, h3 {
     text-align: center;
 }
 
+h1.tagline {
+    font-family: "proxima-nova";
+    font-size: 200%;
+    color: #F15C56;
+}
+
 .row {
     max-width: 960px;
     margin: 0 auto;

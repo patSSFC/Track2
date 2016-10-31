@@ -940,6 +940,14 @@ input.error {
   text-align: left;
 }
 
+#four-culture  {
+  max-width: 80px;
+}
+
+#four-culture:hover {
+  opacity: 0.6;
+}
+
 .footer-link {
   color: #7FCAAD !important;
   margin: 20px 0 0 0 !important;
